@@ -8,6 +8,10 @@ For the first part of this project, sample data is available in a
 [CSV][3] file named `sample_producs.csv`. It contains a **header**
 and **38k rows**.
 
+For the second part of this project, test data is available in a
+[CSV][3] file named `test_producs.csv`. It contains a **header**
+and **500 rows**.
+
 The fields composing each row are specified in the table below:
 
 | **Field**           | **Description**                                                                              |
