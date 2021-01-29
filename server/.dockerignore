@@ -1,0 +1,12 @@
+# Ignore files as .gitignore
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# JupyterLab
+__pycache__
+
+# Environment
+.env

@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: "."
+      target: "development"
+      args:
+        USER_ID: "${USER_ID:-1000}"
+        GROUP_ID: "${GROUP_ID:-1000}"
+    ports:
+      - "5000:5000"
+    volumes:
+      - ".:/usr/src/api"
+      - "../data:/usr/src/data"
+    env_file: ".env"
