@@ -1,0 +1,14 @@
+# Ignore files as .gitignore
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# JupyterLab
+.local
+.ipython
+.ipynb_checkpoints
+
+# Environment
+.env
