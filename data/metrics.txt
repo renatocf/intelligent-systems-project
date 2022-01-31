@@ -1,0 +1,10 @@
+accuracy: 0.962
+
+f1_score micro averaged: 0.962
+
+f1_score[Lembrancinhas]: 0.974
+f1_score[Decoração]: 0.968
+f1_score[Bebê]: 0.951
+f1_score[Papel e Cia]: 0.880
+f1_score[Outros]: 0.929
+f1_score[Bijuterias e Jóias]: 0.952
